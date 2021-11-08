@@ -1,0 +1,112 @@
+/* *FONTS*
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body{
+  background-image: linear-gradient(to right, #4776E6, #8E54E9);
+}
+.App{
+  text-align: center;
+}
+.phoneImg{
+  width: 600px;
+  height: 350px;
+  margin-top: 20px;
+}
+.shopName{
+  color: #fffc00;
+  font-size: 40px;
+  margin-top: 10px;
+}
+.tovarName{
+  margin-bottom: 0;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+}
+.tovarPrice{
+  margin-top: 0;
+  color: #8bff7d;
+  font-size: 27px;
+  font-weight: 400;
+  font-family: system-ui;
+}
+.purchaseBtn, .payButton{
+  background-color: #2e333a;
+  color: #fff;
+  padding: 20px;
+  font-size: 20px;
+  font-family: sans-serif;
+  border: none;
+  cursor: pointer;
+}
+
+.form-group{
+  margin-bottom: 20px;
+}
+.form-row{
+  padding: 0 350px 0 350px;
+}
+
+.success{
+  color: #fff;
+} */
+
+
+
+
+body{
+  background-color: #DBDBDA;
+}
+
+.themeText{
+  text-align: center;
+  background-color: #2399fd;
+  margin: 0;
+  height: 60px;
+  color: #fff;
+  font-size: 40px;
+}
+
+/**SEARCH AREA**/
+
+.searchArea{
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+.searchArea > input{
+  width: 35%;
+  padding: 10px;
+  border-radius: 30px;
+  font-size: 20px;
+  border: none;
+}
+input:focus{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px!important;
+  outline: none;
+}
+.searchArea > button{
+  background-color: rgb(46, 51, 58);
+  color: #fff;
+  padding: 10px;
+  font-size: 20px;
+  font-family: sans-serif;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
+.resultCard{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.resultCard > .card{
+  width: 350px;
+  height: 480px;
+  background: #fff;
+  margin: 20px 0 0 0;
+  cursor: pointer;
+}
+.card > img{
+  width: 50%;
+}
